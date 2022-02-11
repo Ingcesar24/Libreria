@@ -18,7 +18,7 @@ public class Inventario {
 	}
 
 	public ArrayList<Libro> getLibros() {
-		return libros;
+		return null;
 	}	
 	
 }
