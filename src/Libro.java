@@ -6,11 +6,12 @@ private String isbn;
 	private String titulo;
 	private int cantidad;
 	
-	public Libro(String isbn, String titulo, double precio, int cantidad) {
-		this.isbn = isbn;
-		this.titulo = titulo;
-		this.precio = precio;
-		this.cantidad = cantidad;
+	public Libro(String titulo, String isbn, double precio, int cantidad) {  
+	this.titulo = titulo;
+	this.cantidad = cantidad;
+	this.precio = precio;
+	this.isbn = isbn; 
+	
 	}
 	
 	
