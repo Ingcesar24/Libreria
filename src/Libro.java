@@ -1,9 +1,9 @@
 
 public class Libro implements Comparable<Libro>{
 	
-	private String isbn;
-	private String titulo;
+private String isbn;
 	private double precio;
+	private String titulo;
 	private int cantidad;
 	
 	public Libro(String isbn, String titulo, double precio, int cantidad) {
